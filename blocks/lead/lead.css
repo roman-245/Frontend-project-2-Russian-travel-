@@ -1,0 +1,39 @@
+.lead {
+    position: relative;
+}
+
+.lead__title {
+    position: absolute;
+    width: 720px;
+    height: 200px;
+    left: 280px;
+    top: 136px;
+
+    font-family: 'Inter';
+    font-style: 'normal';
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104% */
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.lead__subtitle {
+    position: absolute;
+    width: 620px;
+    height: 72px;
+    left: 320px;
+    top: 368px;
+
+    font-family: 'Inter';
+    font-style: 'normal';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    text-align: center;
+    
+    color: #FFFFFF;
+}

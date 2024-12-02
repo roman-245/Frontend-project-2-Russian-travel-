@@ -1,0 +1,9 @@
+div, main, body {
+  border: 1px solid red;
+}
+
+
+.page {
+    background-color: rgb(33, 32, 32);
+  }
+  
