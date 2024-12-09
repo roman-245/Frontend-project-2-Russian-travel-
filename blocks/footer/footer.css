@@ -1,78 +1,37 @@
 .footer {
-    background-color: rgb(33, 32, 32);
-    min-height: 350px;
-  }
-  
-  .footer__columns {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin: auto;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    justify-content: space-between;
-    min-height: 250px;
-  }
-  
-  .footer__columns__content_copyright {
-    display: flex;
-    flex-basis: 711px;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .footer__columns__author {
-    margin-top: 18px;
-    margin-bottom: 18px;
-  }
-  
-  .footer__columns__author-text {
-    color: white;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    margin: 0;
-  }
-  
-  .footer__column-heading-text {
-    margin: 0;
-    color: white;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: 600;
-  }
-  
-  .footer__column-links {
-    margin-top: 20px;
-    margin-bottom: 16px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .footer__column-link {
-    color: white;
-    text-decoration: none;
-    transition: opacity 0.3s ease;
-  }
+  width: 92.5%;
+  min-height: 18px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .footer__column-link:hover {
-    opacity: 0.7;
+.footer__copyright {
+  /* position: absolute; */
+  width: 186px;
+  height: 16px;
+  left: 1046px;
+  top: 6835px;   
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.footer__link {
+  font-family: 'Inter-thin';
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .footer {
+    width: 90.63%;
   }
-  
-  .footer__column-link_start{
-    color: white;
-    margin-top: 0;
-  }
-  
-  .footer__column-link_end{
-    margin-bottom: 0;
-  }
-  
-  .footer__social-icon {
-    margin-right: 10px;
-  }
-  
-  .footer__column-link-distance {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
+}

@@ -1,0 +1,52 @@
+.intro {
+  width: 60%;
+  margin: 80px 12%;
+  min-height: 429px;
+}
+
+.intro__title {
+  margin: 0;
+  font-family: "Inter-bold";
+  font-size: 56px;
+  line-height: 1;
+  color: #FFFFFF;
+}
+
+.intro__text {
+  margin: 5% 0;
+  font-family: "Inter-regular";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+.intro__list {
+  font-family: "Inter-bold";
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+.intro__list_activate {
+  font-family: "Inter-regular";
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .intro {
+    width: 70%;
+    margin: 80px 4.7% 0;
+  }
+}
+    
+  @media screen and (max-width: 768px) and (min-width: 321px) {
+  .intro {
+    width: 90%;
+    margin: 80px 3.5% 0;
+  }
+}
